@@ -1133,11 +1133,46 @@ footer {
 @media(max-width:640px){
   .bento-projects { grid-template-columns: 1fr; }
   .bento-hero-left, .bento-hero-right, .bento-wide, .bento-card { grid-column: span 1; }
-  .nav-menu { display:none; }
+  
+  /* Navbar Fixes */
+  #navbar {
+    height: auto;
+    padding: 12px 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+  .nav-brand { margin-right: auto; }
+  .nav-menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    order: 3;
+  }
+  .nav-menu a { padding: 6px 12px; font-size: 0.75rem; }
+  .hero { padding-top: 140px; }
+  
   .hero-name { font-size:3.5rem; }
-  .skill-row { grid-template-columns:1fr auto; gap:8px; padding:12px; }
+  
+  /* Skills Section Fixes */
+  .skills-list {
+    height: auto;
+    max-height: none;
+    overflow-y: visible;
+  }
+  .skill-row { grid-template-columns:1fr auto; gap:8px; padding:12px; transform: none !important; }
+  .skill-row:hover { transform: none !important; }
   .sr-cat, .sr-thumb { display:none; }
   .sr-name { font-size:.95rem; }
+  
+  /* Project Section Images Fixes */
+  .bc-media {
+    min-height: 220px;
+    aspect-ratio: 16 / 9;
+  }
+  
   footer { flex-direction:column; gap:8px; }
   
   .edu-media { min-height: 250px; }
