@@ -340,10 +340,6 @@ function renderFeaturedBlock(type) {
   
   setTimeout(() => {
     featuredContent.innerHTML = `
-      <div class="edu-monogram-wrap">
-        <div class="edu-monogram">${data.monogram}</div>
-        <span class="edu-monogram-label">${data.label}</span>
-      </div>
       <h2 class="edu-heading">${data.heading}</h2>
       <hr class="edu-short-divider">
       <p class="edu-desc">${data.desc}</p>
