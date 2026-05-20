@@ -1,0 +1,30 @@
+# Temporary and IDE folders
+scratch/
+.system_generated/
+.gemini/
+.vscode/
+.idea/
+
+# OS-specific files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Old draft and backup design files
+3D Asset image.png
+3D Asset.jpg
+Adobe Express - file.png
+Color pallete.png
+GL Workstation 3D Asset.jpg
+Gokul_R_Portfolio (3).html
+Gokul_R_Portfolio.html
+Portfolio Template.webp
+Portfolio example design.webp
+get_color.html
+hero-3d-adobe.png
+hero-3d-final.png
+hero-3d-hq.png
+hero-3d-latest.png
+hero-3d.png
+original-f944fc187a6c3b1e90feeafa619cc0d.webp
+style.css
